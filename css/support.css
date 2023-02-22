@@ -1,0 +1,54 @@
+.support{
+    display: flex;
+    flex-direction: column;
+}
+.support-body{
+    color: var(--text-color);
+
+}
+
+
+
+.support-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 30px;
+    margin:25px;
+}
+
+.support-details{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+.support{
+    padding:25px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+
+
+@media(min-width:950px){
+   
+    
+    .support-title{
+       font-size: 50px;
+        margin:35px 0;
+    }
+    
+    .support-details{
+        
+        font-size: 20px;
+        margin-top: 10px;
+        line-height: 1.3;
+        text-align: center;
+    }
+   .support-grid{
+    display: grid;
+   }
+   
+}
+
